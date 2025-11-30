@@ -1,43 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Pagina ICO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: Tahoma, sans-serif;
+            background-color: #ece9d8;
+        }
+
+        /* Barra superior Windows XP */
+        .xp-taskbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 45px;
+            background: linear-gradient(#245edc, #1a4bd9);
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #0c2fa0;
+            z-index: 9999;
+            box-shadow: 0px 0px 4px black;
+        }
+
+        /* Botón inicio */
+        .xp-start {
+            background: linear-gradient(#3cb72c, #2a9f20);
+            color: white;
+            font-weight: bold;
+            border: 2px solid #1c6b14;
+            border-radius: 5px;
+            padding: 5px 15px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+  
+        .xp-links {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        .xp-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            margin-right: 25px;
+            font-weight: bold;
+        }
+
+        .xp-links a:hover {
+            text-decoration: underline;
+        }
+
+ 
+        .xp-right {
+          display: flex;
+            margin-left: auto;
+            margin-right: 20px;
+        }
+
+        
+        .xp-right a {
+        color: white;
+            text-decoration: none;
+            font-size: 17px;
+            margin-right: 25px;
+            font-weight: bold;
+        }
+
+        .xp-right a:hover {
+            text-decoration: underline;
+        }
+        .xp-space {
+            height: 60px;
+        }
+    </style>
 </head>
 
 <body>
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="https://www.unam.mx/" class="brand-logo">UNAM</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio">FES Aragon</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio">FES Aragon</a></li>
-      </ul>
-      <a href="https://www.unam.mx/" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">UNAM</i></a>
+<!-- BARRA WINDOWS XP -->
+<div class="xp-taskbar">
+
+    <div class="xp-start">Inicio</div>
+
+    <div class="xp-right">
+        <a href="https://www.unam.mx/" target="_blank">UNAM</a>
     </div>
-  </nav>
 
-  <!-- aqui va mi formulario -->
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">Registro de sistema</h1>
+    <div class="xp-links">
+        <a href="https://www.aragon.unam.mx/fes-aragon/#!/inicio" target="_blank">FES Aragón</a>
     </div>
-  </div>
 
+</div>
 
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        
-        <div class="col s12 m12">
+<!-- Espaciador para que nada quede tapado -->
+<div class="xp-space"></div>

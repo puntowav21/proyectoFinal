@@ -1,0 +1,151 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background: #3a6ea5;
+    margin: 0;
+}
+
+/* --- VENTANA XP --- */
+.xp-window {
+    border: 2px solid #0a246a;
+    background: #ece9d8;
+    margin: 20px;
+    box-shadow: inset -1px -1px 0 #ffffff, inset 1px 1px 0 #808080;
+}
+
+/* --- TITULO XP --- */
+.xp-titlebar {
+    background: linear-gradient(#1b4fa5, #2b71d8);
+    color: white;
+    padding: 6px 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --- BOTONES DE LA BARRA --- */
+.xp-control-btn {
+    width: 18px;
+    height: 18px;
+    background: #ece9d8;
+    border: 1px solid #404040;
+    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #808080;
+    cursor: pointer;
+}
+
+.xp-control-btn:hover {
+    background: #dcd8c8;
+}
+
+/* --- CONTENIDO --- */
+.xp-content {
+    padding: 15px;
+}
+
+/* --- BOTÓN XP --- */
+.xp-btn {
+    background: #ece9d8;
+    border: 2px solid #d4d0c8;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #808080;
+}
+
+.xp-btn:hover {
+    background: white;
+}
+
+.xp-btn:active {
+    box-shadow: inset 1px 1px #ffffff, inset -1px -1px #808080;
+}
+
+/* --- INPUT XP --- */
+.xp-input {
+    background: white;
+    border: 2px solid #7f9db9;
+    padding: 3px;
+    font-size: 13px;
+}
+
+/* --- TABLA XP --- */
+.xp-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    margin-top: 10px;
+    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #808080;
+}
+
+.xp-table th {
+    background: #1b4fa5;
+    color: white;
+    padding: 6px;
+    border: 1px solid #0a246a;
+}
+
+.xp-table td {
+    padding: 6px;
+    border: 1px solid #7f9db9;
+}
+
+.xp-link {
+    color: #0a246a;
+    text-decoration: none;
+}
+
+.xp-link:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER XP */
+.xp-footer {
+    width: 100%;
+    background: #d4d0c8;
+    border-top: 2px solid #ffffff;
+    box-shadow: inset 0px 1px #808080;
+    padding: 15px 0;
+    font-family: Tahoma, sans-serif;
+    margin-top: 40px;
+}
+
+.xp-footer-inner {
+    width: 80%;
+    margin: auto;
+}
+
+.xp-footer h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.xp-footer p {
+    font-size: 13px;
+}
+
+.xp-credits {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.xp-credits span {
+    color: #1b4fa5;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
